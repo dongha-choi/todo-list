@@ -1,3 +1,10 @@
+:root {
+  --dark-background: black;
+  --dark-text: #e2ee83;
+  --light-background: white;
+  --light-text: #b8fccc;
+}
+
 body,
 html {
   height: 100%;
@@ -15,9 +22,14 @@ body {
   align-items: center;
 }
 .container {
-  background-color: black;
+  background-color: var(--dark-background);
   /* background-color: #e2ee83; */
   width: 360px;
   height: 450px;
   border-radius: 15px;
+}
+
+/* Todo component */
+.button {
+  color: var(--dark-text);
 }
